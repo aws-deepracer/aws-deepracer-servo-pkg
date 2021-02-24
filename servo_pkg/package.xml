@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>servo_pkg</name>
+  <version>0.0.1</version>
+  <description>
+      This package contains servo node that is responsible for to map the
+      input servo throttle and steering angle ratios to raw PWM values
+      based on the device calibration and writing that to the motor and servo
+      buffer so that car moves accordingly.
+  </description>
+  <maintainer email="aws-deepracer@amazon.com">AWS DeepRacer</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+
+  <depend>deepracer_interfaces_pkg</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
