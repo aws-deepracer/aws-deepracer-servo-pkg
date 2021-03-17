@@ -108,3 +108,8 @@ The  servo_pkg_launch.py is also included in this package that gives an example 
 |get_calibration|GetCalibrationSrv|A service that is called to get the [min, mid, max, polarity] pwm values for the speed and steering calibration from the saved file.|
 |set_led_state|SetLedCtrlSrv|A service that is called to set the [red, green, blue] channel pwm values for the tail light LEDs and store them in a file.|
 |get_led_state|GetLedCtrlSrv|A service that is called to get the [red, green, blue] channel pwm values for the tail light LEDs from the saved file.|
+
+## Resources
+
+* AWS DeepRacer Opensource getting started: [https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md](https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md)
+
