@@ -2,7 +2,7 @@
 
 ## Overview
 
-The DeepRacer Servo ROS package creates the *servo_node* which is part of the core AWS DeepRacer application and will be launched from the deepracer_launcher. More details about the application and the components can be found [here](https://github.com/awsdeepracer/aws-deepracer-launcher).
+The DeepRacer Servo ROS package creates the *servo_node* which is part of the core AWS DeepRacer application and will be launched from the deepracer_launcher. More details about the application and the components can be found [here](https://github.com/aws-deepracer/aws-deepracer-launcher).
 
 This node is responsible to map the input servo throttle and steering angle ratios to raw PWM values and writing that to the buffer so that car moves accordingly. It also provides functionality to set and get the [min, mid, max, polarity] calibration values for steering and throttle from a file, set and get the tail light LED PWM values from a file.
 
@@ -14,7 +14,7 @@ The source code is released under Apache 2.0 (https://aws.amazon.com/apache-2-0/
 
 ### Prerequisites
 
-The DeepRacer device comes with all the pre-requisite packages and libraries installed to run the servo_pkg. More details about pre installed set of packages and libraries on the DeepRacer, and installing required build systems can be found in the [Getting Started](https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md) section of the AWS DeepRacer Opensource page.
+The DeepRacer device comes with all the pre-requisite packages and libraries installed to run the servo_pkg. More details about pre installed set of packages and libraries on the DeepRacer, and installing required build systems can be found in the [Getting Started](https://github.com/aws-deepracer/aws-deepracer-launcher/blob/main/getting-started.md) section of the AWS DeepRacer Opensource page.
 
 The servo_pkg specifically depends on the following ROS2 packages as build and execute dependencies:
 
@@ -39,7 +39,7 @@ Open up a terminal on the DeepRacer device and run the following commands as roo
 
 1. Clone the servo_pkg on the DeepRacer device:
 
-        git clone https://github.com/awsdeepracer/aws-deepracer-servo-pkg.git
+        git clone https://github.com/aws-deepracer/aws-deepracer-servo-pkg.git
 
 1. Fetch unreleased dependencies:
 
@@ -119,5 +119,5 @@ The  servo_pkg_launch.py is also included in this package that gives an example 
 
 ## Resources
 
-* AWS DeepRacer Opensource getting started: [https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md](https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md)
+* AWS DeepRacer Opensource getting started: [https://github.com/aws-deepracer/aws-deepracer-launcher/blob/main/getting-started.md](https://github.com/aws-deepracer/aws-deepracer-launcher/blob/main/getting-started.md)
 
