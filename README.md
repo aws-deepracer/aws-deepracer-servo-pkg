@@ -57,7 +57,7 @@ Open a terminal on the AWS DeepRacer device and run the following commands as th
 
 ## Usage
 
-The `servo_node` provides the core functionality to combine the camera data from the cameras connected to the USB slots at the front of the AWS DeepRacer vehicle. Although the node is built to work with the AWS DeepRacer application, you can run it independently for development, testing, and debugging purposes.
+The `servo_node` provides the core functionality to map the input servo throttle and steering angle ratios to raw PWM values and writing that to the buffer so that car moves accordingly. Although the node is built to work with the AWS DeepRacer application, you can run it independently for development, testing, and debugging purposes.
 
 ### Run the node
 
